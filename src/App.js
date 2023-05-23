@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Componente from './components/Componente';
 
 function App() {
   return (
@@ -18,6 +19,22 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <section>
+        <Componente msg="Hola soy un componente funcional expresado desde una pro"/>
+        <br /> 
+        <br />   
+        <br />   
+        <br />   
+        <br />   
+        <br />
+        <br />   
+        <br />   
+        <br />   
+
+
+      </section>
+
     </div>
   );
 }
